@@ -71,6 +71,10 @@ html, body {
 	height: 90%;
 }
 
+.links {
+	color: rgb(55, 240, 61);
+}
+
 .padding > li {
 	padding: 15px 0 0 0;
 }
