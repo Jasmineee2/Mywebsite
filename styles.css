@@ -1,0 +1,127 @@
+html, body { 
+	height:100%;
+	width:100%;
+}
+.navbar {
+	background-color: rgb(0, 0, 0);
+	padding: 0.5% 0px;
+	font-size: 1.2em;
+}
+.navbar-brand {
+	min-height:55px;
+	padding: 0 0px 0 0;
+}
+
+.navbar-nav > li {
+	padding: 0 15px 0 0px;
+}
+.navbar-nav > li > a {
+	color: rgba(145, 150, 150, 0.782);
+}
+.navbar-nav > li > a:hover {
+    color: rgb(255, 249, 249);
+}
+.navbar-nav > li > a:active {
+    color: #22c83e;
+}
+#home {
+	background: url(image/los1.jpg) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.landing-text > h1 {
+	font-size: 400%;
+	font-weight: 700;
+	color: white;
+}
+.landing-text > h3 {
+	color: rgb(206, 200, 200);
+}
+.landing-text > a {
+	background-color: rgb(25, 25, 25);
+	color: #22c83e;
+}
+.padding {
+	padding: 80px 0;
+}
+.padding img {
+	width: 100%;
+}
+#fixed {
+	background: url(image/sun.jpg) no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+.img-responsive1 {
+	border-style: solid;
+	border-color: rgb(55, 240, 61);
+	border-width: 1px;
+	height: 90%;
+}
+
+.padding > li {
+	padding: 15px 0 0 0;
+}
+
+footer {
+	width: 100%;
+	background-color: black;
+	padding: 5% 5% 0% 5%;
+	color: rgb(206, 201, 201);
+}
+
+.fab {
+	padding: 15px;
+	font-size: 25px;
+	color:  rgb(206, 201, 201);
+}
+.fab:hover {
+	color: white;
+	text-decoration: none;
+}
+.icon {
+	max-width: 200px;
+}
+
+@media (max-width: 768px) {
+	.navbar-nav >li {
+		text-align: center;
+	}
+	.navbar-brand {
+		padding: 0 0 0 0;
+	}
+	.landing-text h1{
+		font-size: 300%;
+	}
+	.fab {
+		font-size: 20px;
+		padding: 10px;
+	}
+	.icon {
+		padding: 5%;
+		width: 100px;
+	}
+	.resize {
+		padding: 0 0 30px 0;
+	}
+	.img-responsive {
+		padding: 0 0 50px 0;
+	}
+	
+
+
+}
+
+
