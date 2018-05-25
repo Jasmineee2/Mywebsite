@@ -99,7 +99,7 @@ footer {
 	max-width: 200px;
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	.navbar-nav >li {
 		text-align: center;
 	}
